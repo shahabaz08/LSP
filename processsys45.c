@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h>
+
+
+int main(int argc,char * argv[])
+{
+  
+  printf("Pid is %d\n",getpid());
+  printf("%s %s %s ",argv[0],argv[1],argv[2]);
+
+  
+    return 0;
+}
